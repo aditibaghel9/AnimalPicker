@@ -20,7 +20,6 @@ public void animalOption(){
         System.out.println("CAT ASCII ART HERE");
         }
 }
-
     public static void main(String[] args){
 
         AnimalPicker obj = new AnimalPicker();

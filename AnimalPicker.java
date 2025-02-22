@@ -9,17 +9,25 @@ public void animalOption(){
     Scanner sc = new Scanner(System.in);
 
     String option = sc.next();
+        
+        if(option.equals("D")){
 
-    if(option.equals("D")){
+            System.out.println("DOG ASCII ART HERE");
+        }
 
-        System.out.println("DOG ASCII ART HERE");
+        else if(option.equals("C")){
+    
+            System.out.println("CAT ASCII ART HERE");
+            }
+    
+
+        else {
+
+            System.out.println("Invalid Statement");
+        }
     }
 
-    if(option.equals("C")){
-
-        System.out.println("CAT ASCII ART HERE");
-        }
-}
+    
     public static void main(String[] args){
 
         AnimalPicker obj = new AnimalPicker();

@@ -24,12 +24,12 @@ public void animalOption(){
 
     if(option.equals(dog)) {
            
-        System.out.println("DOG ASCII ART HERE");   
+        System.out.println(" __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");   
    }
 
    else if(option.equals(cat)){
 
-        System.out.println("CAT ASCII ART HERE");   
+        System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");   
    }       
 }       
     

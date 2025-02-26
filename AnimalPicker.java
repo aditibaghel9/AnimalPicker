@@ -37,8 +37,7 @@ public void animalOption(){
 
         System.out.println("  _\n><_>");
    }
-}       
-    
+}        
     public static void main(String[] args){
 
         AnimalPicker obj = new AnimalPicker();
